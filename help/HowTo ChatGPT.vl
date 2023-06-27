@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="TmSdMgcTv9jOmT4VJw49Qb" LanguageVersion="2023.5.1" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="NLTfaJ0JkkvM06ZacaliOm" LanguageVersion="2023.5.1" Version="0.128">
   <NugetDependency Id="M4dnDrICpBVPBOjkLVh8Pc" Location="VL.CoreLib" Version="2023.5.1" />
   <Patch Id="TQ8L2g83IpqPzozU7miqDf">
     <Canvas Id="QbCRAgOaQewNWrYqaIu6JV" DefaultCategory="OpenAI" CanvasType="FullCategory" />
@@ -27,7 +27,7 @@
             <Pin Id="BriJNGFOHNrMfEHmIOTZj8" Name="Output" Kind="OutputPin" />
             <Pin Id="H87yUhTuwclOKq70BNFH1b" Name="Chat" Kind="OutputPin" />
           </Node>
-          <Pad Id="RCcnTkQP12fO1AdXv18250" Comment="Api Key" Bounds="230,314,327,19" ShowValueBox="true" isIOBox="true" Value="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">
+          <Pad Id="RCcnTkQP12fO1AdXv18250" Comment="Api Key" Bounds="230,314,317,22" ShowValueBox="true" isIOBox="true" Value="">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -70,21 +70,8 @@
               </Node>
             </Patch>
           </Node>
-          <Pad Id="INZW8wa0BmJMd84dEn9Iph" Comment="Error Message" Bounds="326,738,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="INZW8wa0BmJMd84dEn9Iph" Comment="Error Message" Bounds="331,879,485,183" ShowValueBox="true" isIOBox="true" />
           <Pad Id="P2JknM4aZMLQVj9oRv357K" Comment="Error" Bounds="472,708,35,35" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="412,818,85,19" Id="LEUcB2brxPFMO3h7URfF16">
-            <p:NodeReference LastCategoryFullName="Animation.FrameBased" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Counter" />
-            </p:NodeReference>
-            <Pin Id="DNpKyLBdh7tM0p7i7ZgYob" Name="Increment" Kind="InputPin" />
-            <Pin Id="GKCpNKNhC9qPiiKOFY9u2M" Name="Default" Kind="InputPin" />
-            <Pin Id="JIo2wMlmKOZMjGCmXzz7kQ" Name="Up" Kind="ApplyPin" />
-            <Pin Id="VGcVeVEHbjBOB74WrEMZGf" Name="Down" Kind="ApplyPin" />
-            <Pin Id="VP18s7nI6vvLWKWK578sVW" Name="Reset" Kind="ApplyPin" />
-            <Pin Id="BdDgaqiOqjvLF1pbkPKuqL" Name="Value" Kind="OutputPin" />
-          </Node>
-          <Pad Id="ABYSbG8zMo9OVT21vLzaxM" Comment="" Bounds="418,861,35,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="FGY3WP9vZmzPebH3HrdTcY" Comment="is running" Bounds="187,746,35,43" ShowValueBox="true" isIOBox="true" />
           <Pad Id="F8fKtTSgxawOll5h7sb5Rn" SlotId="MyOY0fnJpmkOspTdHXCXlF" Bounds="906,247" />
           <Node Bounds="904,300,66,26" Id="Lxmp7tK6CobQFklUr1V6sV">
@@ -182,7 +169,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="L7u3k9lVeumPP0jlKpTmwJ" Comment="Start" Bounds="294,166,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="L7u3k9lVeumPP0jlKpTmwJ" Comment="Start" Bounds="291,147,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -216,8 +203,6 @@
         <Link Id="U3IEqpydhNLP0tmmeglyC5" Ids="NyLX3kQIhJXN2pOSXthFai,H5Ohagj4M8gO55ELIThYV2" />
         <Link Id="LALyXwh9bcqOSlz2EKRdkz" Ids="TDTg4wVFymdQQBD2qcoKa4,INZW8wa0BmJMd84dEn9Iph" />
         <Link Id="PQX2swVcsRHNsWI8x8eCmL" Ids="OK71ctsSaT3Mqjp5FKzJOZ,P2JknM4aZMLQVj9oRv357K" />
-        <Link Id="DcG4zZf80PmMsbWJM7BjMO" Ids="OK71ctsSaT3Mqjp5FKzJOZ,JIo2wMlmKOZMjGCmXzz7kQ" />
-        <Link Id="KMhOtNBOXG8QblO6q1G4wW" Ids="BdDgaqiOqjvLF1pbkPKuqL,ABYSbG8zMo9OVT21vLzaxM" />
         <Link Id="Te3k0MB2334POCl0x5ttmL" Ids="S9FTutahhYBN98CO7zP9Tn,FGY3WP9vZmzPebH3HrdTcY" />
         <Slot Id="MyOY0fnJpmkOspTdHXCXlF" Name="StreamResult">
           <p:TypeAnnotation p:Type="TypeReference">
